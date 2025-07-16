@@ -115,3 +115,4 @@ dcl-proc test_getDeptDetail_notFound export;
 
   nEqual(expected.found : actual.found : 'found');
 end-proc;
+ 
