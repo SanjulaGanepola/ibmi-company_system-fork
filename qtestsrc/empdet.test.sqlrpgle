@@ -81,7 +81,7 @@ dcl-proc test_getEmployeeDetail_notFound export;
   nEqual(expected.found : actual.found : 'found');
 end-proc;
 
-cl-proc test_getDeptDetail_found export;
+dcl-proc test_getDeptDetail_found export;
   dcl-pi *n extproc(*dclcase) end-pi;
 
   dcl-s deptno char(3);
