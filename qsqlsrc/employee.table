@@ -8,7 +8,7 @@ CREATE OR REPLACE TABLE EMPLOYEE
        WORKDEPT    CHAR(3)                 ,
        PHONENO     CHAR(4)                 ,
        HIREDATE    DATE                    ,
-       JOB         CHAR(8)                 ,
+       JOB         CHAR(9)                 ,
        EDLEVEL     SMALLINT        NOT NULL,
        SEX         CHAR(1)                 ,
        BIRTHDATE   DATE                    ,
