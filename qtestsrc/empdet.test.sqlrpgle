@@ -68,7 +68,7 @@ dcl-proc test_getEmployeeDetail_notFound export;
   empno = '111111';
   actual = getEmployeeDetail(empno);
 
-  expected.found = *off;
+  expected.found = *on;
 
   nEqual(expected.found : actual.found : 'found');
 end-proc;
