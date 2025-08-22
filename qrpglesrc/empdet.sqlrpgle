@@ -56,9 +56,9 @@ dcl-proc getDeptDetail export;
       deptno = :deptno;
 
   if (sqlcode = 0);
-    department_detail.found = *on;
-  else;
     department_detail.found = *off;
+  else;
+    department_detail.found = *on;
   endif;
 
   return department_detail;
